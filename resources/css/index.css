@@ -1,0 +1,52 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-heading{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #292B2E;
+    margin-top: 20px;
+}
+
+.nav-flex{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: flex-start !important;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#small-box{
+    /*position: absolute;*/
+    width: 27px;
+    height: 9px;
+    left: 33px;
+    top: 22px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.content-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+}
+
+.insight{
+    font-size: 18px;
+    line-height: 28px;
+    color: #858585;
+}
+
+.cardImage{
+    transition: all 0.4s ease;
+    height: 70vh;
+}
+
+.cardImage:hover{
+    filter: brightness(50%);
+}
